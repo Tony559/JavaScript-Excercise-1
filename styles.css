@@ -1,0 +1,17 @@
+body { 
+    background: radial-gradient(black, rgb(20, 20, 88));
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+header h1 { 
+    color: white;
+}
+#opSelector { 
+    height: 2vw;
+    width: 2vw;
+}
