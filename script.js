@@ -3,8 +3,8 @@
 
 function stealInputAndCalc() {
     // Get the input value
-    let firstVal = parseInt(document.getElementById("inputOne").value);
-    let secondVal = parseInt(document.getElementById("inputTwo").value);
+    let firstVal = parseFloat(document.getElementById("inputOne").value);
+    let secondVal = parseFloat(document.getElementById("inputTwo").value);
     let opSelector = document.getElementById("opSelector").value;
     // Display the input value
     let outputlol = document.getElementById("output");
