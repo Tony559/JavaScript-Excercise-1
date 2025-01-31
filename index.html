@@ -10,8 +10,26 @@
     <header>
         <h1>The Void Calculator</h1>
     </header>
-    <select id="opSelector">+</select>
-
-    <script href="script.js"></script>
+    <div id="outputCont" class="">
+        <p id="output"></p>
+    </div>
+    <div id="calcHolder">
+        <div class="inputCont">
+            <label for="inputOne">Value One</label>
+            <input id="inputOne" type="number">
+        </div>
+        <select id="opSelector">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+        <div class="inputCont">
+            <label for="inputTwo">Value Two</label>
+            <input id="inputTwo" type="number">
+        </div>
+    </div>
+    <button type="button" id="submit">Submit</button>
+    <script src="script.js"></script>
 </body>
 </html>

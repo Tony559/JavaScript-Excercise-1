@@ -7,6 +7,9 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    color: black;
+    margin: 0;
+    padding: 0;
 }
 header h1 { 
     color: white;
@@ -14,4 +17,48 @@ header h1 {
 #opSelector { 
     height: 2vw;
     width: 2vw;
+    color: black;
+    margin-top: .5vw;
+}
+#calcHolder { 
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+}
+.inputCont { 
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+}
+
+#submit { 
+    margin-top: 1vw;
+    background: linear-gradient(to left, rgba(17, 50, 236, 0.75), rgb(0, 217, 255));
+    border-radius: .5vw;
+    padding: 1rem;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: 650;
+    font-size: 1.05rem;
+    cursor: pointer;
+    box-shadow:0px 3px rgba(0, 217, 255);
+}
+#submit:hover {
+    box-shadow:0px 3px rgba(0, 217, 255);
+
+}
+#submit:active { 
+    box-shadow:0px 0px 10px rgb(30, 18, 197);
+    transform: translateY(4px);
+}
+#output { 
+    color: white;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+.active { 
+    margin-top: 1vw;
+    transition: .25s ease;
 }
